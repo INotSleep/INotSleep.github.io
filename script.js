@@ -1,7 +1,3 @@
-if (document.getElementsByClassName("container-lg").length == 1) {
-$.ajax({method: "GET", url:"https://raw.githubusercontent.com/INotSleep/INotSleep.github.io/main/index.md", success: function(res) {document.getElementsByTagName("html")[0].innerHTML=res}})
-}
-
 const COIN = `<img width="12" height="12" src="./images/coin.png">`,
 	  STAR = `<img width="12" height="12" src="./images/star.png">`,
 	  itemGEN = ({name, price, harks, lvl, id}) => {
@@ -268,5 +264,9 @@ function init() {
 	updateInv(0)
 }
 
+if (document.getElementsByClassName("container-lg").length == 1) {
+$.ajax({method: "GET", url:"https://raw.githubusercontent.com/INotSleep/INotSleep.github.io/main/index.md", success: function(res) {document.getElementsByTagName("html")[0].innerHTML=res}})
+setTimeout(()=>{init()},200)
+}
 setTimeout(init, 100)
 setInterval(updateGame, 100)
