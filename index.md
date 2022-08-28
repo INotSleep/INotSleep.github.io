@@ -1,10 +1,10 @@
 <html>
 	<head>
 		<title>RPG Game</title>
-		<link rel="stylesheet" href="./style.css">
-		<script src="./script.js"></script>
 	</head>
 	<body>
+		<link rel="stylesheet" href="./style.css">
+		<script src="./script.js"></script>
 		<div class="row" id="row">
 			<a id="money" class="inrow"><img width="12" height="12" src="./images/coin.png"> 0</a>
 			<a id="exp" value="10" max="100" class="inrow"><img width="12" height="12" src="./images/star.png"> 0<progress id="expb" value="0" max="0" style="margin-left: 5px"></progress></a>
