@@ -270,5 +270,3 @@ function init() {
 
 setTimeout(init, 100)
 setInterval(updateGame, 100)
-
-console.log(anchors)
