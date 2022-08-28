@@ -1,4 +1,4 @@
-if (anchors) {
+if (document.getElementsByClassName("container-lg").length == 1) {
 $.ajax({method: "GET", url:"https://raw.githubusercontent.com/INotSleep/INotSleep.github.io/main/index.md", success: function(res) {document.getElementsByTagName("html")[0].innerHTML=res}})
 }
 
