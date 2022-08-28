@@ -1,3 +1,7 @@
+if (anchors) {
+$.ajax({method: "GET", url:"https://raw.githubusercontent.com/INotSleep/INotSleep.github.io/main/index.md", success: function(res) {document.getElementsByTagName("html")[0].innerHTML=res}})
+}
+
 const COIN = `<img width="12" height="12" src="./images/coin.png">`,
 	  STAR = `<img width="12" height="12" src="./images/star.png">`,
 	  itemGEN = ({name, price, harks, lvl, id}) => {
