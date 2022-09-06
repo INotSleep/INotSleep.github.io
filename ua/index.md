@@ -1,1 +1,0 @@
-$.ajax({method: "GET", url:"https://raw.githubusercontent.com/INotSleep/INotSleep.github.io/main/ua/src/index.html", success: function(res) {document.getElementsByTagName("html")[0].innerHTML = res}})
