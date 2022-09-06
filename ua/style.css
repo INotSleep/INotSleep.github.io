@@ -1,0 +1,20 @@
+body {
+    background: linear-gradient(125deg, #e5e5e5, #00eaffe3);
+    color: #4a1414;
+    margin: 0px;
+    padding: 1;
+}
+
+.header {
+    background: #bcbeff;
+    padding: 5px;
+    border-bottom-style: solid;
+    border-color: aqua;
+}
+
+.content {
+    max-width: fit-content;
+    padding: 10px;
+    border-style: inset;
+    background: #c6d2ff;
+}
