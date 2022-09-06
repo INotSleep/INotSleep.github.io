@@ -1,4 +1,1 @@
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
-<script>
-    $.ajax()
-</script>
+$.ajax({method: "GET", url:"https://raw.githubusercontent.com/INotSleep/INotSleep.github.io/main/ua/src/index.html", success: function(res) {document.getElementsByTagName("html")[0].innerHTML = res}})
